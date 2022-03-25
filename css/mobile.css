@@ -1,0 +1,106 @@
+@media only screen and (max-width: 1332px) {  
+    .telo-medcity{width:auto;}
+}
+@media only screen and (max-width: 1300px) { 
+    .header__home{margin-right:20px;}
+    .header__menu-item{padding:0 24px;}
+}
+@media only screen and (max-width: 1200px) { 
+    .header__btn{width:180px;}
+    .header__search{margin-right:20px;}
+    .header__menu-item{padding:0 20px;}
+    .slider__slide-img{right: -85px;}
+    .slider__slide:nth-child(3) .slider__slide-img{right: 0;}
+}
+@media only screen and (max-width: 1100px) { 
+    .header__menu-item{padding:0 11px;}
+}
+@media only screen and (max-width: 1000px) { 
+    .slider__slide-info{padding-left:40px;}
+    .slider__slide{height:430px;}
+    .slider__slide-img{width: 450px;}
+    .slider__slide:nth-child(1) .slider__slide-img{right: 0;}
+    .slider__slide-img img{max-width: 100%;}
+}
+@media only screen and (max-width: 980px) { 
+    .header__phone{display:inline-block;}
+    .header__logo{width:275px; margin-right:20px;}
+    .header__logo img{max-width:100%;}
+    .header__menu-item{font-size:14px;}
+    .header__btn{width:170px; line-height:40px}
+    .text-block__bg{right: 10px;}
+    .slider__slide-name{font-size: 38px; line-height: 40px; margin-bottom: 19px;}
+    .slider__slide-info{width: 530px;}
+    .slider__slide-description{font-size: 30px; line-height: 38px;}
+    .slider__slide-enroll{width: 170px; line-height: 40px;}
+    .slider__slide-more{width: 170px; line-height: 40px;}
+    .slider__slide-date{margin-bottom: 15px;}
+    .slider__slide-price{font-size: 28px; line-height: 32px;}
+    .slider__slide-price span{font-size: 30px;}
+    .slider__slide{height: 360px;}
+    .slider__slide-img{right: -55px; width: 380px;}
+}
+@media only screen and (max-width: 900px) { 
+    .header__mobile-buter{display:flex; justify-content:flex-end; width:220px;}
+    .header__logo{width:220px;}
+    .header__city{display:none;}
+    .header__info{text-align:center; width:215px;}
+    .header__messangers-phone{flex-wrap:wrap; justify-content:center;}
+    .header__bottom{display:none;}
+    .header__buter{margin-right:10px;}
+    .header__mobile-container{width:24px; height:14px; padding-top:6px; cursor: pointer;}
+    .mobile-menu__top .header__city{display:block; padding-left:0; border-left:none;}
+    .header__buter{transition: all 0.3s ease-in-out;}
+    .header__buter::after, .header__buter::before{transition: all 0.3s ease-in-out;}
+    .header__mobile-container--active .header__buter{transform:rotate(45deg);}
+    .header__mobile-container--active .header__buter::after{transform:rotate(-90deg);}
+    .header__mobile-container--active .header__buter::before{transform:translateY(0);}
+    .header__mobile-container--active .header__buter-circle{display:none;}
+
+}
+@media only screen and (max-width: 720px) {
+    .header__info{display:none;}
+    .header__logo{width:275px;}
+    .header__mobile-buter{width:auto;}
+    .mobile-menu{padding-top:106px;}
+    .header__phone{font-size:22px; margin-left:0; line-height:24px;}
+    .mobile-menu__phone{display:block;}
+    .text-block__description{width: 100%;}
+    .slider__slide-img{display: none;}
+    .slider__slide-info{width: 100%; padding-right: 40px;}
+}
+@media only screen and (max-width: 600px) {
+    .text-block__title{font-size: 28px; line-height: 30px; padding-bottom: 15px;}
+    .text-block__description{font-size: 18px; line-height: 22px; padding-bottom: 15px;}
+    .text-block{padding-bottom: 30px;}
+    .text-block__bg{width: 240px; height:200px; background-size: 100%;}
+    .breadcrumbs__item{font-size: 14px; line-height: 20px;}
+    .breadcrumbs__back{width:30px; height:30px;}
+    .breadcrumbs{margin: 18px auto;}
+    .slider__slide-action{width: 80px; line-height: 24px; margin-bottom: 10px;}
+    .slider__slide-name{font-size: 28px; line-height: 30px; margin-bottom: 10px;}
+    .slider__slide-description{font-size: 24px; line-height: 26px;}
+
+}
+@media only screen and (max-width: 500px) {
+    .slider__slide-info{align-items: center;}
+    .slider__slide-name{text-align: center;}
+    .slider__slide-description{text-align: center;}
+    .slider__slide-all-btn{justify-content: space-between; width: 100%;}
+    .slider__slide-enroll{margin-right: 0;}
+    .slider__slide-more{margin-right: 0;}
+}
+@media only screen and (max-width: 450px) {
+    .mobile-menu__top{padding-top:10px; flex-wrap:wrap;}
+    .mobile-menu__top .header__city{width:100%; padding-bottom:10px; display:flex; align-items:center; justify-content:center;}
+    .header__city-gl{padding-right:10px;}
+    .header__search-button{width:100%; justify-content:center;}
+    .slider__slide-enroll, .slider__slide-more{font-size: 16px; width: 140px;}
+}
+@media only screen and (max-width: 400px) {
+    .header__logo{width:225px;}
+    .mobile-menu{padding-top:85px;}
+    .slider__slide-name{font-size: 22px; line-height: 24px;}
+    .slider__slide-enroll, .slider__slide-more{font-size: 14px; width: 105px; line-height: 30px;}
+    .slider__slide{height: 330px;}
+}
